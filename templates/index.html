@@ -1,0 +1,14 @@
+<!-- Simple dashboard UI -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Endpoint Compliance Dashboard</title>
+</head>
+<body>
+    <h1>Compliance Report - Windows</h1>
+    <pre>{{ win | tojson(indent=2) }}</pre>
+
+    <h1>Compliance Report - macOS</h1>
+    <pre>{{ mac | tojson(indent=2) }}</pre>
+</body>
+</html>
